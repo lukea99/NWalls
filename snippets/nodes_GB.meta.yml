@@ -1,4 +1,51 @@
 proxies:
+- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: 'B - 🇬🇧 GB 04 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
 - name: 英国
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
@@ -14,43 +61,32 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|2.7MB/s
+  name: 🇬🇧GB_1|1.7MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
     short-id: '!!str f63805c3ecc7a483'
-  server: 195.184.247.223
+  server: 195.184.247.249
   servername: savesafe.co
   tls: true
   type: vless
   udp: true
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧GB_2|2.9MB/s
-  network: ws
-  port: 53224
-  server: 192.248.163.148
-  tls: false
-  type: vmess
-  uuid: 647c2dc6-fd48-4a84-9b59-163df19ad6f9
-  ws-opts:
-    path: /647c2dc6-fd48-4a84-9b59-163df19ad6f9
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇬🇧GB_3|1.5MB/s
+  name: 🇬🇧GB_2|2.5MB/s
   network: tcp
   port: '443'
   reality-opts:
     public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
     short-id: '!!str f63805c3ecc7a483'
-  server: 195.184.247.239
+  server: 195.184.247.250
   servername: savesafe.co
   tls: true
   type: vless
