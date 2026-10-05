@@ -53,66 +53,25 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|2.7MB/s
-  password: None
-  port: 443
-  server: berniesbodybla.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-- name: 🇺🇸US_2|3.1MB/s
+- name: 🇺🇸US_1|3.1MB/s
   port: 8443
   server: 45.145.72.122
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|1.8MB/s
+- name: 🇺🇸US_2|1.2MB/s
   port: 443
-  server: 68.235.56.59
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
 - cipher: aes-256-cfb
-  name: 🇺🇸US_4|1.2MB/s
+  name: 🇺🇸US_3|2.5MB/s
   password: amazonskr05
-  port: 443
-  server: 98.88.252.127
+  port: '443'
+  server: 23.22.158.187
   type: ss
-- name: 🇺🇸US_5|1.1MB/s
-  password: None
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_6|3.1MB/s
-  password: None
-  port: 443
-  server: tzoa.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|3.3MB/s
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-- name: 🇺🇸US_8|2.3MB/s
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-- name: 🇺🇸US_9|1.0MB/s
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130

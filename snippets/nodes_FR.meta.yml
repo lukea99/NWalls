@@ -1,29 +1,72 @@
 proxies:
-- name: 🇫🇷FR_1|1.5MB/s
+- name: 🇫🇷187923 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+  password: capadmbd5f18bd
   port: 443
-  server: 103.82.101.43
+  server: 51.77.217.70
   skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+  sni: vpn.local
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|1.9MB/s
+  network: tcp
+  port: 443
+  server: e3k67dwms3-51255166202-direct.tavafog.com
+  servername: e3k67dwms3-51255166202-direct.tavafog.com
   tls: true
-  type: http
-- name: 🇫🇷FR_2|3.0MB/s
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
-  tls: true
-  type: http
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - speedtest.net
-    path:
-    - /
-  name: 🇫🇷FR_3|3.1MB/s
-  network: http
-  port: '2045'
-  server: am2d.lynch.ir
   type: vless
   udp: true
-  uuid: d7e99010-e7c3-4978-9d30-2e63882dcfbe
-  xudp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|1.8MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.151.71.63
+  servername: abuse.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3984a6ee-9fc6-4219-93fd-706c59e02171
+- name: 🇫🇷FR_3|2.5MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  skip-cert-verify: true
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_4|2.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 15.224.203.210
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_5|4.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.180.75.226
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_6|1.1MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.36.167.227
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_7|3.3MB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.36.178.160
+  type: ss
+  udp: true

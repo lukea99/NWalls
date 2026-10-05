@@ -46,8 +46,9 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇺🇸US_4|1.2MB/s
+  name: 🇺🇸US_3|2.5MB/s
   password: amazonskr05
-  port: 443
-  server: 98.88.252.127
+  port: '443'
+  server: 23.22.158.187
   type: ss
+  udp: true
