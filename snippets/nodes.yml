@@ -374,15 +374,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇩🇪DE_2|4.5MB/s
-  network: tcp
+- name: 🇩🇪DE_1|2.9MB/s
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de7.dedushka.top
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: de7.dedushka.top
   type: trojan
   udp: true
+- alterId: '2'
+  cipher: auto
+  name: 🇺🇸US_1|2.8MB/s
+  network: tcp
+  port: '30829'
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
