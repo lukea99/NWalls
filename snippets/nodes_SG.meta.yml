@@ -37,34 +37,22 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  name: 🇸🇬SG_1|2.5MB/s
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 139.180.146.200
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇸🇬SG_2|2.6MB/s
-  port: 9443
-  server: 152.233.9.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-- cipher: rc4-md5
-  name: 🇸🇬SG_3|1.3MB/s
-  password: 14fFPrbezE3HDZzsMOr6
-  port: '8080'
-  server: 128.1.186.73
-  type: ss
-  udp: true
-- name: 🇸🇬SG_4|1.0MB/s
+- name: 🇸🇬SG_1|1.8MB/s
   password: '!!str 1234'
-  port: '2080'
-  server: 13.212.190.30
+  port: 2080
+  server: 13.212.55.110
   skip-cert-verify: true
   type: http
   username: '1234'
+- name: 🇸🇬SG_2|2.4MB/s
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: SG_speednode_0021
