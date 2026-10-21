@@ -1,34 +1,14 @@
 proxies:
-- name: 🇬🇧GB_1|1.8MB/s
-  password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  port: 443
-  server: b7342ec0-t9zts0-tnkuks-wujn.uk.oshuawei.com
-  tls: true
-  type: http
-  username: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-- name: 🇬🇧GB_2|2.0MB/s
+- name: 🇬🇧GB_1|1.0MB/s
   password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_3|1.7MB/s
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|3.1MB/s
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_5|2.0MB/s
-  port: 443
-  server: 84.17.50.193
+- name: 🇬🇧GB_2|1004KB/s
+  port: 9443
+  server: 84.17.50.129
   skip-cert-verify: true
   tls: true
   type: http
