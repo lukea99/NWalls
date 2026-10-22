@@ -1,4 +1,40 @@
 proxies:
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇬🇧GB_1|1.4MB/s
+  network: ws
+  password: xwhfg0wu1wxv377f
+  port: '2087'
+  server: 216.24.57.225
+  skip-cert-verify: true
+  sni: neo.xnetaro.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /wss
+- name: 🇬🇧GB_2|1.9MB/s
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|2.4MB/s
+  port: 443
+  server: 84.17.50.193
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|1.0MB/s
+  password: None
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
 - name: GB_speednode_0009
   password: None
   port: 443
@@ -7,34 +43,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇬🇧GB_2|1.1MB/s
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|2.9MB/s
-  password: None
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|2.2MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_5|1.9MB/s
-  port: 443
-  server: 84.17.50.193
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: GB_speednode_0010
   port: 443
   server: 212.102.63.61
