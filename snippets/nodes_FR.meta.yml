@@ -6,13 +6,20 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: FR_speednode_0009
-  port: 443
-  server: 51.158.243.91
+- name: FR_speednode_0012
+  port: 8090
+  server: 83.206.1.225
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
+- name: 🇫🇷FR_3|1.9MB/s
+  port: 443
+  server: 103.82.101.43
+  skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+  tls: true
+  type: http
 - name: FR_speednode_0010
   port: 443
   server: 51.210.167.149
@@ -29,10 +36,3 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: FR_speednode_0012
-  port: 8090
-  server: 83.206.1.225
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
