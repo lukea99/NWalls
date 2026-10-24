@@ -52,12 +52,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- auth: 65c71bac-64fb-470d-950e-de193a509811
-  name: 🇯🇵JP_1|4.7MB/s
-  password: 65c71bac-64fb-470d-950e-de193a509811
-  port: 8443
-  server: 7a322d16.459292.xyz
-  skip-cert-verify: true
-  sni: 7a322d16.459292.xyz
-  type: hysteria2
-  udp: true
