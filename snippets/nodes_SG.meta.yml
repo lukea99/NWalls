@@ -1,23 +1,9 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬[www.v2nodes.com] vless-SG
-  network: ws
-  port: 443
-  server: 172.64.152.241
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
 - alpn:
   - http/1.1
   client-fingerprint: randomized
   encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG #1'
+  name: 🇸🇬[www.v2nodes.com] vless-SG
   network: ws
   port: 8443
   server: 172.66.44.124
@@ -29,19 +15,22 @@ proxies:
     headers:
       Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
     path: /9BozNyvQ8VdRvsYX?ed=2560
-- name: '🇸🇬[www.v2nodes.com] vless-SG #2'
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG #1'
   network: ws
-  port: 8880
-  server: 103.116.7.30
-  tls: false
+  port: 443
+  server: 104.17.154.123
+  servername: ccc.010304.xyz
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: vms.lifetime35.workers.dev
+      Host: ccc.010304.xyz
     path: /
 - client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG #3'
+  name: '🇸🇬[www.v2nodes.com] vless-SG #2'
   network: ws
   port: 443
   server: 104.16.72.30
@@ -54,7 +43,7 @@ proxies:
       Host: xstack.mahanfixe.workers.dev
     path: /xiron
 - encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG #4'
+  name: '🇸🇬[www.v2nodes.com] vless-SG #3'
   network: ws
   port: 8080
   server: 104.21.70.21
@@ -66,9 +55,9 @@ proxies:
     headers:
       Host: nautica-cff.kloningstrife002.workers.dev
     path: /138.2.74.219-28616
-- name: '🇸🇬[www.v2nodes.com] vless-SG #5'
+- name: '🇸🇬[www.v2nodes.com] vless-SG #4'
   network: ws
-  port: 8080
+  port: 2082
   server: 104.18.35.86
   servername: hhlfy.twiladaphne.ndjp.net
   tls: false
@@ -77,7 +66,7 @@ proxies:
   ws-opts:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-    path: /sg-melbi
+    path: /fp
 - encryption: none
   name: 🇸🇬[www.v2nodes.com] vless-SG-1...
   network: ws
@@ -92,23 +81,12 @@ proxies:
   tls: false
   type: vless
   uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
-- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #6'
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #5'
   port: 12512
   server: 46.137.202.178
   tls: false
   type: vless
   uuid: 2a6c617d-98e4-49c3-95ab-76f02fcf0150
-- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #7'
-  network: ws
-  port: 8880
-  server: 89.117.112.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /
 - name: 🇸🇬[www.v2nodes.com] vless-SG-9...
   network: ws
   port: 8880
@@ -132,6 +110,12 @@ proxies:
     headers:
       Host: vms.lifetime18.workers.dev
     path: /
+- cipher: aes-256-gcm
+  name: 🇸🇬[www.v2nodes.com] ss-SG-1559...
+  password: qpSevKaUXYQKvSjp
+  port: 8388
+  server: 139.180.220.175
+  type: ss
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886

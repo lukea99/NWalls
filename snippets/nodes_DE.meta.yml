@@ -81,24 +81,33 @@ proxies:
     headers:
       Host: de5.pad-service.com
     path: /DE5W
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
+- client-fingerprint: firefox
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  network: ws
+  port: 8443
+  server: 51.75.67.209
+  servername: free.sahanwickramasinghe.me
+  tls: true
+  type: vless
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  ws-opts:
+    headers:
+      Host: free.sahanwickramasinghe.me
+    path: /
+- encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+  network: tcp
   port: 27774
   server: 5.175.205.190
   tls: false
   type: vless
   uuid: 653137c6-474e-4a3d-9a20-5a5afb3d4a4f
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
   port: 2112
-  server: mci.amir12.ir
+  server: 157.90.175.178
   tls: false
   type: vless
   uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-- cipher: aes-256-gcm
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1602...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.176.204.18
-  type: ss
 - name: 🇳🇱[www.v2nodes.com] trojan-NL-...
   password: happybirthdaydaniel
   port: 25267
