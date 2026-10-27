@@ -160,6 +160,34 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 🇸🇬SG_1|1002KB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 47.129.155.166
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_2|1.2MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 54.151.242.187
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_3|3.3MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 13.212.190.30
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_4|2.0MB/s
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
   fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
   name: '🇸🇬 新加坡 | SGP #1'
