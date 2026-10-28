@@ -54,72 +54,13 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 🇺🇸US_3|2.2MB/s
+  name: 🇺🇸US_4|3.7MB/s
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.122.7
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.searchnationwidecareerchangehelperandguidancetoday.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_15|1.7MB/s
-  network: tcp
-  password: gFvNUrRsTHhqCcbsvfWdTRBdssefWdfH
-  port: 6022
-  server: 147.182.203.237
-  skip-cert-verify: false
-  sni: hotspot-unlimited.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_19|3.2MB/s
-  network: tcp
-  password: rBLqkQqyTSvlgMHCtTtkhaTNpmtMmYEY
-  port: 8931
-  server: 164.92.73.218
-  skip-cert-verify: false
-  sni: hotspot-unlimited.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #8'
-  network: tcp
-  password: WCwRcLxlKIeyXKHkppTmQIGXeRfIYYmE
-  port: 9213
-  server: 45.32.135.70
-  skip-cert-verify: true
-  sni: hotspot-unlimited.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_18|2.9MB/s
-  password: WCwRcLxlKIeyXKHkppTmQIGXeRfIYYmE
-  port: 4804
-  server: 137.184.178.208
-  skip-cert-verify: false
-  sni: hotspot-unlimited.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US_22|3.4MB/s
-  network: tcp
-  password: dyuDoaYEEhbHTfUgfJHUjNVHlDENejfh
-  port: 9304
-  server: 45.32.140.119
-  skip-cert-verify: false
-  sni: hotspot-unlimited.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #14'
-  network: tcp
-  password: hRtaKtsQkpklmssQDbbWRCNawDGdJePw
-  port: 9998
-  server: 24.199.106.240
-  skip-cert-verify: true
-  sni: hotspot-unlimited.com
   type: trojan
   udp: true
 - name: '🇺🇸 美国 | USA #1'
@@ -146,6 +87,14 @@ proxies:
   sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
   udp: true
+- name: '🇺🇸 美国 | USA #8'
+  password: WCwRcLxlKIeyXKHkppTmQIGXeRfIYYmE
+  port: 9213
+  server: 45.32.135.70
+  skip-cert-verify: true
+  sni: hotspot-unlimited.com
+  type: trojan
+  udp: true
 - name: '🇺🇸 美国 | USA #10'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -160,6 +109,14 @@ proxies:
   server: 216.152.156.212
   skip-cert-verify: true
   sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #14'
+  password: hRtaKtsQkpklmssQDbbWRCNawDGdJePw
+  port: 9998
+  server: 24.199.106.240
+  skip-cert-verify: true
+  sni: hotspot-unlimited.com
   type: trojan
   udp: true
 - name: '🇺🇸 美国 | USA #15'

@@ -1,11 +1,14 @@
 proxies:
-- name: 🇪🇪EE_1|1.3MB/s
-  port: 9443
-  server: 192.159.101.174
+- name: 🇪🇪EE_1|1.2MB/s
+  password: 9jkvAVV-9ufV6IGd
+  port: 12318
+  server: chalo-ru.nexorcdn.com
   skip-cert-verify: true
+  sni: chalo-ru.nexorcdn.com
   tls: true
   type: http
-- name: 🇪🇪EE_2|1.6MB/s
+  username: ef37886e2aacd6fa622e3de3810299c2
+- name: 🇪🇪EE_2|2.4MB/s
   password: None
   port: 9443
   server: 95.153.31.66

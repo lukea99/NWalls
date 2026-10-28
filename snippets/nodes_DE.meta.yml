@@ -9,39 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪201034 | ⚡️Telegram = t.me/S...
-  password: 2f0fccb6-4a86-4d9f-9e03-a2dfee6ed7f5
-  port: 8443
-  server: 95.85.252.217
-  sni: speedtestmark.com
-  tls: false
-  type: hysteria2
-- name: Telegram 🆔@cnetvpn 🇩🇪
-  obfs: salamander
-  obfs-password: 6cmj1dymhm79hopl
-  password: 8z2e26xkqsa598s3
-  port: 52000
-  server: gift-catalog.aroonia.ir
-  skip-cert-verify: false
-  sni: gift-catalog.aroonia.ir
-  tls: false
-  type: hysteria2
-- name: 🇩🇪201035 | ⚡️Telegram = t.me/S...
-  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
-  port: 4443
-  server: 31.76.24.11
-  sni: de1.shvpn.ru
-  tls: false
-  type: hysteria2
-- name: 🇩🇪201128 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 7922smqtd5qm70fu
-  password: hltm9jnj6ez4cbhd
-  port: 2098
-  server: vip.trapxan.ir
-  sni: vip.trapxan.ir
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
   network: ws
@@ -81,15 +48,15 @@ proxies:
     headers:
       Host: de5.pad-service.com
     path: /DE5W
-- client-fingerprint: firefox
+- encryption: none
   name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
   network: ws
-  port: 8443
-  server: 51.75.67.209
+  port: 80
+  server: free.sahanwickramasinghe.me
   servername: free.sahanwickramasinghe.me
-  tls: true
+  tls: false
   type: vless
-  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
   ws-opts:
     headers:
       Host: free.sahanwickramasinghe.me
@@ -108,38 +75,85 @@ proxies:
   tls: false
   type: vless
   uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-- name: 🇳🇱[www.v2nodes.com] trojan-NL-...
+- cipher: aes-256-gcm
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1602...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.204.18
+  type: ss
+- name: 🇩🇪DE_2|2.7MB/s
   password: happybirthdaydaniel
   port: 25267
   server: de-bots4.h1cloud.net
   skip-cert-verify: true
   sni: t.me/FuckTheWall
   type: trojan
-- name: 🇩🇪DE_1|1.5MB/s
-  password: None
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_1|3.2MB/s
+  network: ws
   port: 443
-  server: 79.127.156.177
-  skip-cert-verify: true
+  server: lvi.su
+  servername: lvi.su
   tls: true
-  type: http
-- name: 🇩🇪DE_2|1.5MB/s|R002-260618
+  type: vless
+  udp: true
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
+  ws-opts:
+    headers:
+      Host: lvi.su
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
+  xudp: true
+- name: 🇩🇪DE_3|2.0MB/s
   password: None
   port: 443
   server: 149.36.50.129
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
-- name: 🇩🇪DE_3|1.1MB/s
-  port: 443
-  server: 87.106.223.158
+- name: 🇩🇪DE_4|1.1MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|2.7MB/s
+- name: 🇩🇪DE_5|3.2MB/s
+  password: None
   port: 443
-  server: 149.36.50.157
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|2.9MB/s
+  password: None
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|3.5MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.2MB/s
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|2.1MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.4
   skip-cert-verify: true
   tls: true
   type: http
@@ -170,13 +184,6 @@ proxies:
     headers:
       Host: free.sahanwickramasinghe.me
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: '🇩🇪 德国 | DEU #5'
-  password: uvKNudV-N8AUCrykPiyznA
-  port: 56137
-  server: 37.153.158.167
-  type: ss
-  udp: true
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
