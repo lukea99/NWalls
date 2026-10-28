@@ -1,17 +1,21 @@
 proxies:
-- name: 🇪🇪EE_1|1.2MB/s
-  password: 9jkvAVV-9ufV6IGd
-  port: 12318
-  server: chalo-ru.nexorcdn.com
-  skip-cert-verify: true
-  sni: chalo-ru.nexorcdn.com
+- name: 🇪🇪201602 | ⚡️Telegram = t.me/S...
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  port: 4443
+  server: ee2.obxodvpn.us
+  skip-cert-verify: false
+  sni: nl1.obxodvpn.us
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '🇪🇪 爱沙尼亚 | EST #2'
+  network: xhttp
+  port: 443
+  server: 31.76.70.90
+  servername: 597dad6b.con.fernarchive.online
   tls: true
-  type: http
-  username: ef37886e2aacd6fa622e3de3810299c2
-- name: 🇪🇪EE_2|2.4MB/s
-  password: None
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
