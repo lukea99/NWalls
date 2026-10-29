@@ -5,62 +5,101 @@ proxies:
   port: 8388
   server: 64.83.20.73
   type: ss
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #12'
+- name: 🇺🇸[www.v2nodes.com] trojan-US-...
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 216.152.155.23
+  server: 216.152.155.176
   skip-cert-verify: false
-  sni: courses.nextjobopportunityandclaimyouridealrole.com
+  sni: blog.nextjobopportunityandclaimyouridealrole.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #9'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.114.132
-  skip-cert-verify: true
-  sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #11'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.156.212
   skip-cert-verify: true
   sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #10'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #6'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.114.114
-  skip-cert-verify: true
-  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+  server: 66.163.112.242
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #12'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 169.197.140.169
   type: trojan
 - name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 216.152.156.42
-  skip-cert-verify: true
-  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
+  server: 66.163.122.7
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #5'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #9'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.76
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.112.121
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #8'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.132
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #10'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.131
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #11'
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.158
+  skip-cert-verify: false
+  sni: resources.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #13'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.23
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #14'
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.122.113
+  skip-cert-verify: false
+  sni: api.searchnationwidecareerchangehelperandguidancetoday.com
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #15'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.155.54
+  sni: learn.nextjobopportunityandclaimyouridealrole.com
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #18'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.245
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #17'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.156.81
   skip-cert-verify: true
   sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #6'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #19'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.122.7
+  server: 216.152.156.42
   skip-cert-verify: true
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #8'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.114.166
-  skip-cert-verify: true
-  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  sni: blog.healthcarejobshubenhancemedicalprofessionalskillstoday.com
   type: trojan
 - alterId: 0
   cipher: auto
@@ -107,4 +146,47 @@ proxies:
   server: 63182sh8-4d7b.aws-agent.net
   skip-cert-verify: true
   sni: m.ctrip.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸US_1|1.5MB/s
+  network: tcp
+  password: 5t6i121em5lkmsmk
+  port: 42314
+  server: us007.zestapp778.com
+  skip-cert-verify: true
+  sni: us007.zestapp778.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_14|1.6MB/s
+  network: tcp
+  password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+  port: 443
+  server: 176.114.95.242
+  skip-cert-verify: false
+  sni: us-1.1984.love
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇷🇺 俄罗斯 | RUS #1'
+  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
+  port: 18443
+  server: 195.58.49.167
+  type: ss
+  udp: true
+- grpc-opts:
+    grpc-service-name: grpc-video-call
+  name: 🇷🇺 俄罗斯 | RUS 2
+  network: grpc
+  password: Pass-Client-1
+  port: 8446
+  server: 171.22.119.74
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: '🇷🇺 俄罗斯 | RUS #2'
+  password: Pass-Client-1
+  port: 8446
+  server: 171.22.119.74
+  skip-cert-verify: true
   type: trojan

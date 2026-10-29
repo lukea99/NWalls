@@ -55,21 +55,73 @@ proxies:
     headers:
       Host: de5.pad-service.com
     path: /DE5W
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
-  port: 2112
-  server: 157.90.175.178
-  tls: false
-  type: vless
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
 - cipher: aes-256-gcm
   name: 🇩🇪[www.v2nodes.com] ss-DE-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.204.18
   type: ss
+- name: '🇩🇪 德国 | DEU #4'
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '🇬🇧 英国 | GBR #1'
+  network: xhttp
+  port: 443
+  server: 144.31.213.229
+  servername: 6d160a52.con.fernarchive.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_2|2.4MB/s
+  network: ws
+  port: 443
+  server: lvi.su
+  servername: lvi.su
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
+  ws-opts:
+    headers:
+      Host: lvi.su
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
+  name: 🇩🇪DE_3|1.2MB/s
+  network: ws
+  port: 443
+  server: msydjt.com
+  servername: msydjt.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  ws-opts:
+    headers:
+      Host: ded1ws.samcdn.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.89 Safari/537.36
+    path: /51544/ws
+  xudp: true
 - client-fingerprint: firefox
   encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
-  name: 🇩🇪DE_1|1.2MB/s
+  name: 🇩🇪DE_4|1.0MB/s
   network: ws
   port: 443
   server: www.naviga-ting.com
@@ -81,99 +133,136 @@ proxies:
   ws-opts:
     headers:
       Host: ded1ws.samcdn.shop
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /51544/ws
   xudp: true
-- name: 🇩🇪DE_2|2.4MB/s
+- name: 🇩🇪DE_5|2.6MB/s
   password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|2.0MB/s
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: DE_speednode_0004
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0005
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_5|3.4MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|3.4MB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|2.8MB/s
+- name: 🇩🇪DE_7|3.0MB/s
   password: None
   port: 443
   server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇩🇪DE_8|1020KB/s
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_9|1.6MB/s
+  network: xhttp
+  port: 443
+  server: 144.31.217.28
+  servername: 9187bd6f.con.fernarchive.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_10|1.6MB/s
+  network: xhttp
+  port: 443
+  server: e2865c20.con.rasterparcel.tech
+  servername: e2865c20.con.rasterparcel.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: abca037b-bee5-41cc-a888-0668e4c66176
+  xhttp-opts:
+    mode: auto
+    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_8|2.2MB/s
+  name: 🇩🇪DE_11|1.6MB/s
   network: ws
   port: 443
-  server: 148-253-210-191.sslip.io
-  servername: 148-253-210-191.sslip.io
+  server: 87.120.166.160
+  servername: lvi.su
   tls: true
   type: vless
   udp: true
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  uuid: 7b91b2c3-8af3-449b-a555-00c9460989f4
   ws-opts:
     headers:
-      Host: 148-253-210-191.sslip.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /test-ws
+      Host: lvi.su
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2
   xudp: true
-- name: 🇩🇪DE_9|4.6MB/s
-  port: 12345
-  server: 141.147.19.47
-  skip-cert-verify: true
-  type: http
-- name: 🇩🇪DE_10|2.4MB/s
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
 - alpn:
+  - h3
   - h2
-  client-fingerprint: chrome
+  - http/1.1
+  client-fingerprint: random
   name: '🇩🇪 德国 | DEU #1'
-  network: ws
+  network: xhttp
   port: 443
-  server: 199.232.239.239
-  servername: firefox.com
+  server: f1.greewebservices.ir
+  servername: default.ssl.fastly.net
   tls: true
   type: vless
   udp: true
-  uuid: 36805edb-1e85-4199-a59f-117010b70017
+  uuid: a7e9fc98-25a2-4801-961c-7a6ed9d69328
+  xhttp-opts:
+    host: Cheerfully-frozen-mongoose-beryl.global.ssl.fastly.net
+    mode: auto
+    path: /
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 80
+  server: bmi2.kolman.com.de
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2da85937-93d9-4509-8491-63b1921cf447
   ws-opts:
     headers:
-      Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
-    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056
+      Host: zeo6-lylp.uti.realoslo-norg.maniyadg7shard.ir
+    path: /f9bGbG7ZNy5L0tzXKZNxSX4q
+- client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #5'
+  network: ws
+  port: 443
+  server: 155.212.240.10
+  servername: n.bitpulse.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
+  ws-opts:
+    headers:
+      Host: n.bitpulse.me
+    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
 - client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #3'
+  name: '🇩🇪 德国 | DEU #6'
   network: xhttp
   port: 443
   server: 823bcb90.con.fernarchive.online
@@ -186,3 +275,18 @@ proxies:
     host: 823bcb90.con.fernarchive.online
     mode: auto
     path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
+- name: '🇩🇪 德国 | DEU #8'
+  password: Tg3RnK7Xp8B1
+  port: 443
+  server: 45.32.157.84
+  skip-cert-verify: true
+  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
+  type: trojan
+  udp: true
+- name: DE_speednode_0004
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
