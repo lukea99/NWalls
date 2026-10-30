@@ -1,4 +1,14 @@
 proxies:
+- name: 🇸🇪203174 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 9765192816a553687801bb170ee1c351
+  password: HyDouble_f1NgaW7sHbMefhNf
+  port: 25000
+  server: fenrir.cc.cd
+  skip-cert-verify: false
+  sni: fenrir.cc.cd
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇸🇪
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
@@ -12,7 +22,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: assets
-  name: 🇸🇪[www.v2nodes.com] vless-SE-1...
+  name: '🇸🇪[www.v2nodes.com] vless-SE-1... #1'
   network: grpc
   port: 443
   server: 193.233.252.100
@@ -20,10 +30,11 @@ proxies:
   tls: true
   type: vless
   uuid: 76ef5ab3-7075-4e23-b445-f3b1bd05d431
-- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #1'
+- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
   network: ws
   port: 14430
   server: 5.178.109.174
+  servername: 5.178.109.174
   tls: false
   type: vless
   uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
@@ -31,47 +42,10 @@ proxies:
     headers:
       Host: 5.178.109.174
     path: /vless
-- name: 🇸🇪SE_1|3.0MB/s
+- name: 🇸🇪SE_1|3.1MB/s
   password: None
   port: 443
   server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪SE_2|2.1MB/s
-  password: None
-  port: 443
-  server: 146.70.242.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_3|1.2MB/s
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: '🇸🇪 瑞典 | SWE #2'
-  network: xhttp
-  port: 33744
-  server: 132.243.231.14
-  servername: se-5060f39afb.shamanapp.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d9fb46f-c4bc-4d6e-9a26-a4d5f51abd28
-  xhttp-opts:
-    host: se-5060f39afb.shamanapp.online
-    mode: stream-up
-    path: /ShamanXHTTP2026
-- auth: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
-  name: '🇸🇪 瑞典 | SWE #3'
-  password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
-  port: 443
-  server: 192.142.23.46
-  skip-cert-verify: true
-  sni: diffoscope.com
-  tls: false
-  type: hysteria2

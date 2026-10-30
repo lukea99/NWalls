@@ -1,32 +1,26 @@
 proxies:
-- client-fingerprint: unsafe
-  encryption: none
-  name: 🇸🇬[www.v2nodes.com] vless-SG
+- name: 🇸🇬[www.v2nodes.com] vless-SG
   network: ws
   port: 443
-  server: 88.216.69.253
+  server: 172.64.152.241
   servername: ccc.010304.xyz
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
       Host: ccc.010304.xyz
+    path: /fp=chromefp=chrome
+- name: '🇸🇬[www.v2nodes.com] vless-SG #1'
+  network: ws
+  port: 443
+  server: cf-socks.caoyuwu.eu.org
+  servername: cf-socks.caoyuwu.eu.org
+  tls: true
+  type: vless
+  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
+  ws-opts:
     path: /fp=chrome
-- client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG #1'
-  network: ws
-  port: 443
-  server: 172.67.76.40
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
 - name: '🇸🇬[www.v2nodes.com] vless-SG #2'
   network: ws
   port: 443
@@ -39,21 +33,18 @@ proxies:
     headers:
       Host: parsa-panel-u48we.wotic15356.workers.dev
     path: /pulsefp=chrome
-- client-fingerprint: chrome
-  encryption: none
+- encryption: none
   name: '🇸🇬[www.v2nodes.com] vless-SG #3'
   network: ws
-  port: 443
-  server: 104.18.35.15
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
+  port: 8880
+  server: 154.218.15.30
+  tls: false
   type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
+      Host: vms.lifetime47.workers.dev
+    path: /
 - client-fingerprint: chrome
   name: 🇸🇬[www.v2nodes.com] vless-SG-1...
   network: tcp
@@ -84,30 +75,38 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
-- encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #12'
-  network: ws
-  port: 8880
-  server: 80.93.202.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-    path: /
-- name: 🇸🇬[www.v2nodes.com] vless-SG-9...
-  network: ws
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #11'
   port: 443
-  server: 43.174.193.1
-  servername: ccc.010304.xyz
+  server: chatgpt.com
   tls: false
   type: vless
   uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
+    path: /
+- encryption: none
+  name: 🇸🇬[www.v2nodes.com] vless-SG-9...
+  network: ws
+  port: 8080
+  server: 172.67.75.172
+  tls: false
+  type: vless
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  ws-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /fp=chromesecurity=tls
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+    path: /
+- encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-9... #1'
+  network: ws
+  port: 2082
+  server: 172.64.150.28
+  tls: false
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
@@ -151,22 +150,73 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬SG_1|1.7MB/s
-  port: 9443
-  server: 152.233.9.239
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '🇸🇬 新加坡 | SGP #2'
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #1'
   network: ws
-  port: 2082
-  server: 104.18.35.86
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
+  port: 8443
+  server: cf.877774.xyz
+  servername: ricardolu955.ccwu.cc
+  tls: true
   type: vless
   udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 9ea8c73c-01a3-420f-851b-aa5741b69355
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
+      Host: ricardolu955.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #2'
+  network: ws
+  port: 8443
+  server: www.dg22.top
+  servername: ricardolu955.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ea8c73c-01a3-420f-851b-aa5741b69355
+  ws-opts:
+    headers:
+      Host: ricardolu955.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #3'
+  network: ws
+  port: 8443
+  server: funko.com
+  servername: ricardolu955.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ea8c73c-01a3-420f-851b-aa5741b69355
+  ws-opts:
+    headers:
+      Host: ricardolu955.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #4'
+  network: ws
+  port: 2096
+  server: m.iyf.tv
+  servername: ricardolu955.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ea8c73c-01a3-420f-851b-aa5741b69355
+  ws-opts:
+    headers:
+      Host: ricardolu955.ccwu.cc
+    path: /
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #5'
+  network: ws
+  port: 443
+  server: guide.for.edu.sg
+  servername: ricardolu955.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ea8c73c-01a3-420f-851b-aa5741b69355
+  ws-opts:
+    headers:
+      Host: ricardolu955.ccwu.cc
+    path: /

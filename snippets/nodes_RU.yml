@@ -1,11 +1,10 @@
 proxies:
 - grpc-opts:
     grpc-service-name: grpc-video-call
-  name: 🇷🇺 俄罗斯 | RUS 2
+  name: 🇷🇺[www.v2nodes.com] trojan-RU-...
   network: grpc
   password: Pass-Client-1
   port: 8446
   server: 171.22.119.74
   skip-cert-verify: true
   type: trojan
-  udp: true
