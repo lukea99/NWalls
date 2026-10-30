@@ -9,7 +9,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
   port: 465
   server: hw7.divarkhaghazi.com
   tls: false
@@ -17,23 +17,8 @@ proxies:
   uuid: d0d3d49c-56e8-40e1-9e83-793d03f83d93
   ws-opts:
     path: /
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
-  network: tcp
-  port: 46605
-  server: 91.107.147.12
-  tls: false
-  type: vless
-  uuid: 0c45be70-e001-41e5-b39d-39351fe4a2d7
-  ws-opts:
-    path: /
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
-  port: 25362
-  server: 193.148.253.194
-  tls: false
-  type: vless
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
 - client-fingerprint: firefox
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
   network: ws
   port: 8443
   server: 51.75.67.209
@@ -45,6 +30,18 @@ proxies:
     headers:
       Host: free.sahanwickramasinghe.me
     path: /
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1608...
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+  port: 443
+  server: 8.211.196.252
+  type: ss
+- cipher: rc4-md5
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1604...
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 128.1.186.132
+  type: ss
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -52,39 +49,50 @@ proxies:
   skip-cert-verify: true
   sni: courses.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  type: trojan
-- name: 🇩🇪DE_1|1.9MB/s
-  password: None
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #1'
+  network: ws
   port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
+  server: 199.232.239.239
+  servername: firefox.com
   tls: true
-  type: http
-- name: 🇩🇪DE_2|2.0MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.9MB/s
-  password: None
+  type: vless
+  udp: true
+  uuid: faa0dff2-e398-48fb-d599-f8a379808edf
+  ws-opts:
+    headers:
+      Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
+    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056
+- client-fingerprint: random
+  name: '🇩🇪 德国 | DEU #2'
+  network: ws
   port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
+  server: 192.71.27.237
+  servername: eu-central.862400.xyz
   tls: true
-  type: http
-- name: 🇩🇪DE_4|1.9MB/s
-  password: None
-  port: 9443
-  server: 213.177.229.161
-  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: b782eda8-7846-437c-ab93-07c3476c2887
+  ws-opts:
+    headers:
+      Host: eu-central.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 443
+  server: 146.75.57.238
+  servername: firefox.com
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 8a940430-555c-4047-928a-d896e0397b5f
+  ws-opts:
+    headers:
+      Host: looaloooibamoooijji.global.ssl.fastly.net.
+    path: /
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
