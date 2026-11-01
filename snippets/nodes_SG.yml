@@ -62,6 +62,14 @@ proxies:
   sni: cm.g.doubleclick.net
   type: trojan
   udp: true
+- name: 🇸🇬SG_2|3.5MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 15589
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
 - name: '🇸🇬 新加坡 | SGP #5'
   password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
   port: 40013
