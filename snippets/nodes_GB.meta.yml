@@ -86,29 +86,42 @@ proxies:
   skip-cert-verify: true
   sni: en001.zestapp778.com
   type: trojan
-- name: 🇬🇧GB_1|1.3MB/s
-  port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|2.0MB/s
+- name: 🇬🇧GB_1|2.7MB/s
   password: None
-  port: 9443
-  server: 84.17.50.214
+  port: 443
+  server: 84.17.50.193
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_3|2.4MB/s
+- name: 🇬🇧GB_2|2.4MB/s
+  password: None
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|2.1MB/s
+  password: None
   port: 443
   server: 212.102.63.61
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|1.6MB/s
+- name: 🇬🇧GB_4|2.7MB/s
   password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   port: 443
   server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
   tls: true
   type: http
   username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇬🇧 英国 | GBR
+  password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
+  port: 11108
+  server: gb01.dw.sh-cloudflare.sbs
+  skip-cert-verify: true
+  sni: gb01.shanhai.me
+  type: anytls
+  udp: true

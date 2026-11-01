@@ -8,13 +8,14 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  name: '🇺🇸 美国 | USA #9'
   network: ws
   port: 443
   server: 146.75.59.186
   servername: firefox.com
   tls: true
   type: vless
+  udp: true
   uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
   ws-opts:
     headers:
@@ -157,22 +158,103 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: 🇺🇸US_1|4.4MB/s
-  network: xhttp
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇺🇸US_1|1.3MB/s
+  network: ws
   port: 443
-  server: 199.232.20.113
-  servername: www.firefox.com
+  server: 146.75.57.238
+  servername: cdn.akamai.steamstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 57197967-f14a-4b5b-8b75-a0c6d19db048
-  xhttp-opts:
-    host: xm6514.global.ssl.fastly.net
-    mode: auto
-    path: /
+  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: ''
   xudp: true
-- name: 🇺🇸US_2|1.6MB/s
+- name: 🇺🇸US_2|1.5MB/s
+  network: ws
+  port: 8880
+  server: 154.83.2.50
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime28.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|2.1MB/s
+  network: ws
+  port: 443
+  server: 141.193.213.10
+  servername: m.udemy.com.r3xxe.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: a321980f-54ce-432a-862a-76035b9d78ad
+  ws-opts:
+    headers:
+      Host: m.udemy.com.r3xxe.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /nl-tw
+  xudp: true
+- name: 🇺🇸US_4|1.3MB/s
+  network: ws
+  password: e7TTceggMwUMg+aFN:F4
+  port: 443
+  server: 172.66.47.18
+  servername: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
+  skip-cert-verify: true
+  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560
+- name: 🇺🇸US_5|3.7MB/s
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_6|1.8MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_7|2.1MB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_8|3.2MB/s
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_9|2.5MB/s
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_10|2.7MB/s
   password: 'null'
   port: 9002
   server: 138.199.35.211
@@ -180,47 +262,60 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇺🇸US_3|1.8MB/s
+- name: 🇺🇸US_11|1.9MB/s
   port: 443
   server: 12.202.180.118
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|1.1MB/s
+- name: 🇺🇸US_12|3.5MB/s
   password: None
-  port: 8443
-  server: 44.229.69.166
+  port: 443
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_5|1.8MB/s
+- name: 🇺🇸US_13|3.4MB/s
+  port: 443
+  server: 23.133.176.14
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|2.3MB/s
   password: None
   port: 9443
   server: 198.44.138.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_6|1.2MB/s
-  port: 443
-  server: 216.107.139.82
-  skip-cert-verify: true
-  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.8MB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.4MB/s
+- name: 🇺🇸US_15|3.2MB/s
   password: None
-  port: 8090
-  server: 209.148.53.153
+  port: 9443
+  server: 154.47.25.78
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_9|3.2MB/s
+- name: 🇺🇸US_17|2.0MB/s|S001-260618
+  port: 38182
+  server: 69.55.49.177
+  skip-cert-verify: true
+  sub_tag: S001-260618
+  type: socks5
+  udp: true
+- name: 🇺🇸US_18|1.3MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_19|2.2MB/s
+  password: None
+  port: 8443
+  server: 44.217.145.28
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_20|1.2MB/s
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 443
   server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
@@ -228,56 +323,44 @@ proxies:
   tls: true
   type: http
   username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- name: 🇺🇸US_10|1.5MB/s
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 443
-  server: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
-  sni: 2bf1e5af-tdsv40-tf8z9r-1pr35.se.oshuawei.com
+- name: 🇺🇸US_21|2.4MB/s
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 5443
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
   tls: true
   type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-- auth: 41edb44c8e
-  name: '🇷🇺 俄罗斯 | RUS #2'
-  password: 41edb44c8e
-  port: 11592
-  server: 103.88.243.142
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- auth: 78585441-c8b3-40fb-9b94-15edd312fdcf
+  name: '🇺🇸 美国 | USA #3'
+  password: 78585441-c8b3-40fb-9b94-15edd312fdcf
+  port: 44444
+  server: 107.172.16.232
   skip-cert-verify: true
-  sni: srv-17e124.21freedom.net
+  sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: unsafe
-  name: '🇺🇸 美国 | USA #2'
-  network: ws
-  port: 443
-  server: 8.47.69.60
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: '🇺🇸 美国 | USA #4'
   network: ws
   port: 443
-  server: 172.66.154.57
-  servername: ccc.010304.xyz
+  server: d.chicago-0000.kdns.fr
+  servername: d.ChIcAgO-0000.Kdns.fr
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 2fd055ec-61ca-44b2-8418-a2c9a52702d4
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /
+      Host: d.ChiCAgO-0000.kdnS.fR
+    path: /JM07pTsvwEO4643aWhQRrZq1a
 - name: 🇺🇸 美国 | USA 5
   network: ws
   password: humanity
   port: 443
-  server: 179.255.136.143
+  server: 104.18.255.167
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
@@ -287,33 +370,83 @@ proxies:
       Host: www.cordweave.com
     path: /assignment
 - alpn:
-  - h3
-  auth: 69e41e64-a832-471a-b740-94577ca85520
-  down: 200
-  name: 🇺🇸 美国 | USA 7
-  password: 69e41e64-a832-471a-b740-94577ca85520
-  port: 443
-  server: 217.60.73.56
+  - h2
+  - http/1.1
+  name: 🇺🇸 美国 | USA 6
+  password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
+  port: 11104
+  server: us01.dw.sh-cloudflare.sbs
   skip-cert-verify: true
-  sni: forshynewh.duckdns.org
-  type: hysteria2
+  sni: us01.shanhai.me
+  type: anytls
   udp: true
-  up: 100
-- name: '🇺🇸 美国 | USA #5'
+- name: 🇺🇸 美国 | USA 7
+  network: ws
   password: humanity
   port: 443
-  server: 179.255.136.143
+  server: 104.18.72.213
   skip-cert-verify: true
   sni: www.cordweave.com
   type: trojan
-- name: '🇺🇸 美国 | USA #7'
-  password: 69e41e64-a832-471a-b740-94577ca85520
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 9
+  network: ws
+  password: humanity
   port: 443
-  server: 217.60.73.56
+  server: 172.66.0.118
   skip-cert-verify: true
-  sni: forshynewh.duckdns.org
-  tls: false
-  type: hysteria2
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 11
+  network: ws
+  password: humanity
+  port: 443
+  server: 179.255.132.76
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: '🇺🇸 美国 | USA #5'
+  password: humanity
+  port: 443
+  server: 104.18.255.167
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+- name: '🇺🇸 美国 | USA #6'
+  password: humanity
+  port: 443
+  server: 104.18.72.213
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+- name: '🇺🇸 美国 | USA #8'
+  password: humanity
+  port: 443
+  server: 172.66.0.118
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+- name: '🇺🇸 美国 | USA #10'
+  password: humanity
+  port: 443
+  server: 179.255.132.76
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
 - name: US_speednode_0039
   port: 8443
   server: 44.248.167.117

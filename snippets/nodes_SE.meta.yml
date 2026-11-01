@@ -32,29 +32,38 @@ proxies:
   port: 8388
   server: 70.34.212.124
   type: ss
-- name: 🇸🇪SE_1|1.4MB/s
+- name: 🇸🇪SE_1|3.6MB/s
+  password: None
+  port: 443
+  server: 146.70.242.146
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇪SE_2|3.2MB/s
   port: 443
   server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪 瑞典 | SWE
-  network: ws
-  password: humanity
+- name: 🇸🇪SE_3|3.7MB/s
+  password: None
   port: 443
-  server: 77.221.139.114
+  server: 79.142.77.63
   skip-cert-verify: true
-  sni: www.cordweave.com
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 🇸🇪SE_4|1.3MB/s
+  network: ws
+  password: f426d3c9-fb43-43c0-868b-898dfa451a74
+  port: 443
+  server: 121.127.33.130
+  skip-cert-verify: false
+  sni: likejennie.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '🇸🇪 瑞典 | SWE #1'
-  password: humanity
-  port: 443
-  server: 77.221.139.114
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: ''
