@@ -8,26 +8,26 @@ proxies:
   uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国|@ripaojiedian
-  network: ws
-  port: 443
-  server: 8nTzyR5KNivfabaT.v.3dns.vip
-  servername: 8nTzyR5KNivfabaT.v.3dns.vip
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 8nTzyR5KNivfabaT.v.3dns.vip
-    path: /ws-vmess
-- name: 韩国|@ripaojiedian
+- name: 韩国1|@ripaojiedian
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 11171
-  server: 63182sh8-4d7b.aws-agent.net
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 29628
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: m.ctrip.com
+  sni: cm.g.doubleclick.net
   type: trojan
+- name: '🇰🇷 韩国 | KOR #1'
+  network: tcp
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 18572
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+- name: 🇰🇷KR_2|1.4MB/s
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+  port: 31433
+  server: 783f6643-tcev40-th02zb-m0b9.kr.oshuawei.com
+  tls: true
+  type: http
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
