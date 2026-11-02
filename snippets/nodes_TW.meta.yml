@@ -35,27 +35,27 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: 🇹🇼TW_1|4.9MB/s
+- name: '🇹🇼 🇨🇳 台湾 | TWN #1'
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 45502
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: 0324fbc29561
+  port: 443
+  server: 684616s4.df6h451rh.xin
+  skip-cert-verify: true
+  sni: px.ads.linkedin.com
+  type: anytls
+  udp: true
+- name: '🇹🇼 🇨🇳 台湾 | TWN #2'
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 22003
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: ece1b2df-a71d-47a4-962a-9084226263d3
-  port: 10012
-  server: 2088.nyyen.com
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: anytls
-  udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  password: ece1b2df-a71d-47a4-962a-9084226263d3
-  port: 15001
-  server: jp.tgnb.uk
-  skip-cert-verify: true
-  sni: buylite.music.apple.com
-  type: anytls
   udp: true
