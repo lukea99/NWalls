@@ -7,12 +7,6 @@ proxies:
   sni: cm.g.doubleclick.net
   type: trojan
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 149.28.130.108
-  sni: searchcreativejobsandshowcaseyourartistictalents.com
-  type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #2'
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
@@ -44,8 +38,21 @@ proxies:
 - name: 🇸🇬 新加坡 | SGP
   network: ws
   password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 2087
-  server: 104.18.43.20
+  port: 443
+  server: 172.104.57.237
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇸🇬 新加坡 | SGP 2
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: cucc.cloudflare.seeck.cn
   skip-cert-verify: true
   sni: api.85s.me
   type: trojan
@@ -71,7 +78,7 @@ proxies:
   network: ws
   password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
-  server: cucc.cloudflare.seeck.cn
+  server: 172.237.90.144
   skip-cert-verify: true
   sni: api.85s.me
   type: trojan
@@ -79,44 +86,18 @@ proxies:
   ws-opts:
     headers:
       Host: api.85s.me
-    path: /
-- name: 🇸🇬 新加坡 | SGP 6
-  network: ws
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 172.104.161.198
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: api.85s.me
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '🇸🇬 新加坡 | SGP #7'
-  password: bf5129f1-31f5-4edf-a07a-27ec31b26c1d
-  port: 2096
-  server: 52.221.223.188
-  type: ss
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 8
-  network: ws
-  password: '!!str 123456'
-  port: 2096
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: 321dfbc6.uir-9i6.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 321dfbc6.uir-9i6.pages.dev
     path: /
 - name: '🇸🇬 新加坡 | SGP #1'
   password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 2087
-  server: 104.18.43.20
+  port: 443
+  server: 172.104.57.237
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+- name: '🇸🇬 新加坡 | SGP #2'
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: cucc.cloudflare.seeck.cn
   skip-cert-verify: true
   sni: api.85s.me
   type: trojan
@@ -130,21 +111,7 @@ proxies:
 - name: '🇸🇬 新加坡 | SGP #4'
   password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
-  server: cucc.cloudflare.seeck.cn
+  server: 172.237.90.144
   skip-cert-verify: true
   sni: api.85s.me
-  type: trojan
-- name: '🇸🇬 新加坡 | SGP #6'
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  port: 443
-  server: 172.104.161.198
-  skip-cert-verify: true
-  sni: api.85s.me
-  type: trojan
-- name: '🇸🇬 新加坡 | SGP #8'
-  password: '!!str 123456'
-  port: 2096
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: 321dfbc6.uir-9i6.pages.dev
   type: trojan
