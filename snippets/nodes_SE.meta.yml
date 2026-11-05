@@ -20,28 +20,21 @@ proxies:
     headers:
       Host: 5.178.109.174
     path: /vless
-- cipher: aes-256-gcm
-  name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  password: AxIYWtskJWIIaefW
-  port: 8388
-  server: 70.34.212.124
-  type: ss
 - name: 🇸🇪[www.v2nodes.com] trojan-SE-...
   password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
   port: 443
   server: connect-se.mimowhat.online
   sni: connect-se.mimowhat.online
   type: trojan
-- client-fingerprint: chrome
-  name: '🇸🇪 瑞典 | SWE #1'
-  network: xhttp
-  port: 4443
-  server: swo2.nexfile.net
-  servername: swo2.nexfile.net
-  tls: true
+- name: '🇸🇪 瑞典 | SWE #1'
+  network: tcp
+  port: 5059
+  server: bot.vudfaro.ir
+  tls: false
   type: vless
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  xhttp-opts:
-    host: swo2.nexfile.net
-    mode: auto
-    path: /api/v1/sync/
+  udp: true
+  uuid: 7df4f23f-b361-412a-883a-54dfdb5b8c8f
+  ws-opts:
+    headers:
+      Host: bot.vudfaro.ir
+    path: /
