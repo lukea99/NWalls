@@ -12,22 +12,26 @@ proxies:
     headers:
       Host: nautica-cff.kloningstrife002.workers.dev
     path: /138.2.74.219-28616
-- client-fingerprint: chrome
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #3'
+- client-fingerprint: unsafe
+  name: '🇯🇵 日本 | JPN #1'
   network: ws
   port: 443
-  server: 104.17.210.74
+  server: 62.106.75.86
   servername: jp3.yohototo.top
   tls: true
   type: vless
+  udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   ws-opts:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
+- encryption: none
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
+  network: tcp
   port: 47878
   server: 152.69.195.67
+  servername: 152.69.195.67
   tls: false
   type: vless
   uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
@@ -71,9 +75,23 @@ proxies:
     headers:
       Host: vlso5.1d.mom
     path: /socks5=888:888@hkip.1d.mom:1080fp=chrome
+- encryption: none
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #9'
+  network: ws
+  port: 11424
+  server: 38.47.96.220
+  servername: notls.lukongtou.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  ws-opts:
+    headers:
+      Host: notls.lukongtou.eu.org
+    path: Telegram-WangCai2🇨🇳
 - client-fingerprint: chrome
   encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #9'
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
   network: ws
   port: 2096
   server: courses.mftplus.qzz.io
@@ -115,15 +133,26 @@ proxies:
   port: 443
   server: 149.22.87.241
   type: ss
-- name: '🇯🇵 日本 | JPN #1'
+- name: 🇯🇵[www.v2nodes.com] trojan-JP-...
   password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
   port: 8443
   server: 160.21.74.183
   skip-cert-verify: true
   sni: 160.21.74.183
   type: trojan
-- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #1'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- name: 🇯🇵JP_1|1.2MB/s
+  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   port: 443
-  server: 167.179.108.225
+  server: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+  sni: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- name: '🇯🇵 日本 | JPN #2'
+  password: e79bb958-2a79-4eea-87a3-7e73d0059ebf
+  port: 27777
+  server: 150.230.217.160
+  skip-cert-verify: true
+  sni: ol1.ssn571.top
   type: trojan
+  udp: true
