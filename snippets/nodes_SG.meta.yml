@@ -1,6 +1,16 @@
 proxies:
 - client-fingerprint: firefox
-  name: 🇸🇬[www.v2nodes.com] vless-SG-1...
+  encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  network: tcp
+  port: 56984
+  server: 140.235.11.243
+  servername: sg1.zestapp778.com
+  tls: true
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: firefox
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
   port: 443
   server: 45.76.155.179
   servername: sg003.zestapp778.com
@@ -8,13 +18,11 @@ proxies:
   type: vless
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - client-fingerprint: chrome
-  encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #5'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #7'
   network: ws
   port: 2096
   server: 139.162.27.96
   servername: free-server.techsonic.dev
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
@@ -64,7 +72,6 @@ proxies:
   server: 15.235.184.127
   type: trojan
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 149.28.130.108
@@ -76,19 +83,51 @@ proxies:
   port: 8886
   server: 139.180.146.200
   type: trojan
-- name: 🇸🇬SG_1|2.7MB/s|K001-260618
-  port: 9090
-  server: 159.223.41.216
-  skip-cert-verify: true
-  sub_tag: K001-260618
-  type: http
+- client-fingerprint: chrome
+  name: 🇸🇬SG_1|1.1MB/s
+  network: ws
+  port: 8443
+  server: cf.090227.xyz
+  servername: liusuyan.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 889fa37f-6bce-4674-8a49-1cc435e11de7
+  ws-opts:
+    headers:
+      Host: liusuyan.cc.cd
+    path: /proxyip=ProxyIP.SG.CMLiussss.Net
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_2|2.6MB/s
+  network: ws
+  port: 443
+  server: 188.164.248.110
+  servername: imanvipreserved.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  ws-opts:
+    headers:
+      Host: imanvipreserved.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '🇸🇬 新加坡 | SGP #2'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 13.212.45.153
+  type: ss
   udp: true
 - auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
   fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
-  name: '🇸🇬 新加坡 | SGP #1'
+  name: '🇸🇬 新加坡 | SGP #5'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 13.212.211.153
+  server: 13.212.45.153
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
