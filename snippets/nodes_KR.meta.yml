@@ -8,6 +8,20 @@ proxies:
   uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   ws-opts:
     path: /
+- client-fingerprint: chrome
+  name: '🇰🇷 韩国 | KOR #1'
+  network: ws
+  port: 8443
+  server: 64.110.79.66
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
 - name: 🇰🇷[www.v2nodes.com] trojan-KR-...
   password: 5t6i121em5lkmsmk
   port: 48851
@@ -50,17 +64,3 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- client-fingerprint: chrome
-  name: '🇰🇷 韩国 | KOR #1'
-  network: ws
-  port: 8443
-  server: 64.110.79.66
-  servername: fs.qicai99.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    headers:
-      Host: fs.qicai99.com
-    path: /
