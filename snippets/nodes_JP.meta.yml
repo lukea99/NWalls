@@ -36,7 +36,7 @@ proxies:
   name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
   network: ws
   port: 443
-  server: 168.107.36.135
+  server: 172.64.152.19
   servername: jp3.yohototo.top
   tls: true
   type: vless
@@ -46,17 +46,24 @@ proxies:
       Host: jp3.yohototo.top
     path: /tyxyws
 - name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
-  network: tcp
   port: 47878
   server: 152.69.195.67
+  servername: 152.69.195.67
   tls: false
   type: vless
   uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
 - cipher: aes-256-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
+  name: '🇯🇵 日本 | JPN #4'
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
   type: ss
 - client-fingerprint: firefox
   name: 🇯🇵 日本｜08｜BGP
@@ -110,41 +117,39 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵 日本 | JPN
-  port: 21581
-  server: mk33hz8-g01.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 91710d35-76ad-3513-bb14-4caddae68539
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵 日本 | JPN 2
-  port: 64655
-  server: tifch57.g01.jp05-vm5.entry.rtysjur.quest
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 91710d35-76ad-3513-bb14-4caddae68539
-- alterId: 1
-  cipher: auto
+- client-fingerprint: random
   name: '🇯🇵 日本 | JPN #1'
-  network: tcp
-  port: 21581
-  server: mk33hz8-g01.jp03-j7-vm0.entry.fr0528.art
+  network: ws
+  port: 443
+  server: 200.180.163.38
+  servername: eu-central.862400.xyz
   tls: true
-  type: vmess
-  uuid: 91710d35-76ad-3513-bb14-4caddae68539
-- alterId: 1
-  cipher: auto
-  name: '🇯🇵 日本 | JPN #2'
-  network: tcp
-  port: 64655
-  server: tifch57.g01.jp05-vm5.entry.rtysjur.quest
-  tls: false
-  type: vmess
-  uuid: 91710d35-76ad-3513-bb14-4caddae68539
+  type: vless
+  udp: true
+  uuid: 5b28a0c9-eda3-4c78-b07b-48cbd1670771
+  ws-opts:
+    headers:
+      Host: eu-central.862400.xyz
+    path: /announcement?ed=2048
+- name: '🇯🇵 日本 | JPN #2'
+  password: 66dff097-fa47-4ae1-8ed8-5e147e564f1c
+  port: 47040
+  server: hwzl.fastfly.qzz.io
+  skip-cert-verify: true
+  sni: jp1.fastfly.uk
+  type: trojan
+  udp: true
+- client-fingerprint: random
+  name: '🇯🇵 日本 | JPN #3'
+  network: ws
+  port: 443
+  server: 13.114.101.22
+  servername: eu-central.862400.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5b28a0c9-eda3-4c78-b07b-48cbd1670771
+  ws-opts:
+    headers:
+      Host: eu-central.862400.xyz
+    path: /announcement?ed=2048

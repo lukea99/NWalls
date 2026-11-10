@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  name: '🇭🇰[www.v2nodes.com] vless-HK-1... #2'
+  network: ws
+  port: 443
+  server: 68.64.182.205
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -53,100 +66,17 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #1'
-  network: ws
-  port: 44867
-  server: 47.244.120.197
+- name: 🇭🇰HK_1|4.7MB/s
+  password: None
+  port: 31343
+  server: 120.232.204.58
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    path: /arki
-- name: 🇭🇰 香港 | HKG 2
-  network: ws
-  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
-  port: 443
-  server: 23.227.38.10
-  skip-cert-verify: true
-  sni: hkk-1-8hhh.ccc3cosmo.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hkk-1-8hhh.ccc3cosmo.top
-    path: /images
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #3'
-  network: ws
-  port: 23026
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /arki
-- name: 🇭🇰 香港 | HKG 4
-  network: ws
-  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
-  port: 443
-  server: 56e1f.cloudflare.182682.xyz
-  skip-cert-verify: true
-  sni: hkk-1-8hhh.ccc3cosmo.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hkk-1-8hhh.ccc3cosmo.top
-    path: /images
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #5'
-  network: ws
-  port: 36703
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    path: /arki
-- client-fingerprint: chrome
-  name: '🇭🇰 香港 | HKG #6'
-  network: ws
-  port: 443
-  server: 68.64.182.205
-  servername: fs.qicai99.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    headers:
-      Host: fs.qicai99.com
-    path: /
-- name: '🇭🇰 香港 | HKG #2'
-  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
-  port: 443
-  server: 23.227.38.10
+  type: http
+- name: 🇭🇰HK_2|4.7MB/s
+  password: '!!str 111'
+  port: 11408
+  server: 47.76.186.28
   skip-cert-verify: true
-  sni: hkk-1-8hhh.ccc3cosmo.top
-  type: trojan
-- name: '🇭🇰 香港 | HKG #4'
-  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
-  port: 443
-  server: 56e1f.cloudflare.182682.xyz
-  skip-cert-verify: true
-  sni: hkk-1-8hhh.ccc3cosmo.top
-  type: trojan
+  type: socks5
+  username: '111'

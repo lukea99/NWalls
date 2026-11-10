@@ -5,7 +5,7 @@ proxies:
   port: 12961
   server: mm.good2026.com
   type: ss
-- name: '🇺🇸 美国 | USA #8'
+- name: 🇺🇸[www.v2nodes.com] trojan-US-...
   password: a75243d0f5c2e31bd6c8c118b4f6442f81ad
   port: 443
   server: 176.122.173.224
@@ -13,9 +13,9 @@ proxies:
   sni: www.cloudflare.com
   type: trojan
 - cipher: aes-256-cfb
-  name: '🇺🇸 美国 | USA #6'
+  name: '🇺🇸 美国 | USA #4'
   password: amazonskr05
   port: 443
-  server: 18.222.109.114
+  server: 18.226.88.63
   type: ss
   udp: true
