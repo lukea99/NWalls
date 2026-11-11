@@ -59,49 +59,52 @@ proxies:
   port: 443
   server: 141.98.101.181
   type: ss
-- client-fingerprint: chrome
-  name: 🇬🇧GB_5|1.5MB/s
-  network: tcp
+- name: 🇬🇧[www.v2nodes.com] trojan-GB-...
   password: 5t6i121em5lkmsmk
   port: 29813
   server: en001.zestapp778.com
-  skip-cert-verify: true
   sni: en001.zestapp778.com
   type: trojan
-  udp: true
-- name: 🇬🇧GB_1|2.3MB/s
+- name: 🇬🇧GB_1|2.4MB/s
   password: None
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_2|2.6MB/s
+- name: 🇬🇧GB_2|1.1MB/s
   password: None
   port: 443
-  server: 212.102.63.61
+  server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_3|3.0MB/s
+- name: 🇬🇧GB_3|1.8MB/s|P002-260618
   password: None
   port: 443
-  server: 37.120.233.18
+  server: 212.102.63.31
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇬🇧GB_4|2.4MB/s
+  port: 443
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_4|2.1MB/s
+- name: 🇬🇧GB_5|1.3MB/s
   password: None
   port: 9443
   server: 84.17.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧 英国 | GBR
-  password: 66dff097-fa47-4ae1-8ed8-5e147e564f1c
-  port: 30000
-  server: uk1.fastfly.qzz.io
-  skip-cert-verify: true
-  sni: uk1.fastfly.qzz.io
-  type: anytls
+- cipher: aes-256-cfb
+  name: '🇬🇧 英国 | GBR #1'
+  password: amazonskr05
+  port: 443
+  server: 13.135.248.173
+  type: ss
   udp: true
