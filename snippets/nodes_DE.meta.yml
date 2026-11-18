@@ -12,7 +12,7 @@ proxies:
     headers:
       Host: ir2.cryptojakiro.com
     path: /
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
   port: 49313
   server: 159.195.207.238
   tls: false
@@ -21,7 +21,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: a9w9wmko0k2od14hv8v
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
   network: grpc
   port: 443
   server: 5.83.129.236
@@ -47,6 +47,12 @@ proxies:
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   port: 443
   server: 47.254.143.251
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1621...
+  password: zZMNTGpPl38ASlbI1EKOBJ
+  port: 46303
+  server: 135.220.178.46
   type: ss
 - cipher: aes-256-gcm
   name: 🇩🇪[www.v2nodes.com] ss-DE-1616...
@@ -86,6 +92,78 @@ proxies:
   tls: true
   type: http
   username: 'null'
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de2.v1
+  name: 🇩🇪 德国 | DEU
+  network: grpc
+  port: 443
+  server: pebble.gerqix.online
+  servername: windlass.gerqix.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #7'
+  network: ws
+  port: 2053
+  server: 172.67.65.56
+  servername: whitecreeper.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  ws-opts:
+    headers:
+      Host: whitecreeper.pages.dev
+    path: /proxyip
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de3.v1
+  name: 🇩🇪 德国 | DEU 8
+  network: grpc
+  port: 443
+  server: 147.45.99.100
+  servername: luminexorizon.ink
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇩🇪 德国 | DEU #1'
+  network: grpc
+  port: 443
+  server: pebble.gerqix.online
+  servername: windlass.gerqix.online
+  tls: true
+  type: vless
+  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇩🇪 德国 | DEU #8'
+  network: grpc
+  port: 443
+  server: 147.45.99.100
+  servername: luminexorizon.ink
+  tls: true
+  type: vless
+  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
