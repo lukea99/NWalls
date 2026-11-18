@@ -5,12 +5,6 @@ proxies:
   port: 42878
   server: 23.230.52.119
   type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1616...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 149.40.57.134
-  type: ss
 - name: 美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN
@@ -29,65 +23,9 @@ proxies:
   sni: ssl.fastly.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: 🇺🇸US_3|1.1MB/s
-  network: http
-  port: 52402
-  server: 104.225.148.201
-  tls: false
-  type: vmess
-  uuid: 0542f509-4368-4ee3-be54-0557fed80f6b
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇺🇸US_5|3.1MB/s
-  network: http
-  port: 44441
-  server: 192.220.47.85
-  tls: false
-  type: vmess
-  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
-  x-toolall-mihomo: true
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #5'
-  network: ws
-  port: 443
-  server: US122201.ssgreen.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b8fbcbc5-fe2b-452c-8c94-e37b2a1baeb9
-  ws-opts:
-    headers:
-      Host: US122201.ssgreen.org
-    path: /wes
-- name: 🇺🇸 美国 | USA 11
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 443
-  server: 104.19.173.68
-  skip-cert-verify: true
-  sni: azadnet-5vk.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: azadnet-5vk.pages.dev
-    path: /azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan
 - alterId: 64
   cipher: auto
-  name: '🇺🇸 美国 | USA #9'
+  name: '🇺🇸 美国 | USA #6'
   network: ws
   port: 30004
   server: 192.74.236.148
@@ -100,10 +38,3 @@ proxies:
     headers:
       Host: www.91334565.xyz
     path: /path/1733477783705
-- name: '🇺🇸 美国 | USA #8'
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 443
-  server: 104.19.173.68
-  skip-cert-verify: true
-  sni: azadnet-5vk.pages.dev
-  type: trojan

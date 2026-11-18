@@ -18,19 +18,8 @@ proxies:
   tls: false
   type: vless
   uuid: 855c7aaa-e7d6-463e-971e-d36032744428
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: a9w9wmko0k2od14hv8v
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #7'
-  network: grpc
-  port: 443
-  server: 5.83.129.236
-  servername: host-de-upscale.cdn.cachefleet.com
-  tls: true
-  type: vless
-  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
 - client-fingerprint: firefox
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
   network: ws
   port: 443
   server: 37.18.14.177
@@ -78,92 +67,63 @@ proxies:
   port: 19999
   server: 193.108.119.2
   type: ss
-- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1608...
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  port: 443
+  server: 8.211.57.86
+  type: ss
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
   sni: courses.iloverussia2026.com
   type: trojan
-- name: 🇩🇪DE_1|1.3MB/s
-  password: 'null'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: glush.de2.v1
+  server: 193.108.119.78
+  type: trojan
+- auth: HATATEAYA
   name: 🇩🇪 德国 | DEU
-  network: grpc
+  obfs: salamander
+  obfs-password: HATATEAYA
+  password: HATATEAYA
+  port: 8964
+  server: 77.90.15.183
+  skip-cert-verify: true
+  sni: ganlanc.at
+  type: hysteria2
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🇩🇪 德国 | DEU #2'
+  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
   port: 443
-  server: pebble.gerqix.online
-  servername: windlass.gerqix.online
+  server: 47.85.162.44
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #5'
+  network: xhttp
+  port: 443
+  server: 193.160.208.240
+  servername: 193.160.208.240
   tls: true
   type: vless
   udp: true
-  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
-- client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #7'
-  network: ws
-  port: 2053
-  server: 172.67.65.56
-  servername: whitecreeper.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  ws-opts:
-    headers:
-      Host: whitecreeper.pages.dev
-    path: /proxyip
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: ios
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: glush.de3.v1
-  name: 🇩🇪 德国 | DEU 8
-  network: grpc
-  port: 443
-  server: 147.45.99.100
-  servername: luminexorizon.ink
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇩🇪 德国 | DEU #1'
-  network: grpc
-  port: 443
-  server: pebble.gerqix.online
-  servername: windlass.gerqix.online
-  tls: true
-  type: vless
-  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: ios
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇩🇪 德国 | DEU #8'
-  network: grpc
-  port: 443
-  server: 147.45.99.100
-  servername: luminexorizon.ink
-  tls: true
-  type: vless
-  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  xhttp-opts:
+    mode: auto
+    path: /assets/twru01/
+- name: '🇩🇪 德国 | DEU #1'
+  obfs: salamander
+  obfs-password: salamander
+  password: HATATEAYA
+  port: 8964
+  server: 77.90.15.183
+  skip-cert-verify: true
+  sni: ganlanc.at
+  tls: false
+  type: hysteria2
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
