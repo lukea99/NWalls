@@ -1,12 +1,4 @@
 proxies:
-- name: 🇯🇵218802 | ⚡️Telegram = t.me/L...
-  password: oracle_hy2_pass_2026
-  port: 8443
-  server: 129.225.181.46
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: 🇯🇵[www.v2nodes.com] vless-JP-1...
   network: ws
@@ -66,23 +58,12 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_1|4.4MB/s
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: v2n1.11676767.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: v2n1.11676767.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /static/cart
-  xudp: true
+- name: 🇯🇵JP_2|3.5MB/s
+  password: EGJDy5Kg
+  port: 42000
+  server: 103.248.150.50
+  type: socks5
+  username: paZFN3JA
 - alterId: 1
   cipher: auto
   name: 🇯🇵 日本 | JPN 2
