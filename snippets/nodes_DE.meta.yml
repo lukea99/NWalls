@@ -1,38 +1,19 @@
 proxies:
-- name: 🔹69@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 18.194.242.173
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- auth: HATATEAYA
-  name: 🇩🇪 德国 | DEU
-  obfs: salamander
-  obfs-password: HATATEAYA
-  password: HATATEAYA
-  port: 8964
-  server: 77.90.15.183
-  skip-cert-verify: true
-  sni: ganlanc.at
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  name: 🇩🇪[www.v2nodes.com] vless-DE-1...
   network: ws
   port: 443
-  server: ir2.cryptojakiro.com
-  servername: ir2.cryptojakiro.com
+  server: 87.242.94.42
+  servername: 87.242.94.42
   tls: true
   type: vless
-  uuid: 8a1a991a-f206-447a-adaf-37a57c133418
+  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
   ws-opts:
     headers:
-      Host: ir2.cryptojakiro.com
-    path: /
+      Host: 87.242.94.42
+    path: /cart/sync/iJa-_8Pi4FjK
 - client-fingerprint: firefox
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
   network: ws
   port: 443
   server: 37.18.14.177
@@ -56,20 +37,26 @@ proxies:
   port: 443
   server: 47.254.143.251
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1621...
-  password: zZMNTGpPl38ASlbI1EKOBJ
-  port: 46303
-  server: 135.220.178.46
+- cipher: aes-256-gcm
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1616...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.83.85
   type: ss
 - cipher: aes-256-gcm
   name: 🇩🇪[www.v2nodes.com] ss-DE-1615...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 23.157.88.43
+  server: 193.108.119.3
   type: ss
 - cipher: aes-256-gcm
   name: '🇩🇪[www.v2nodes.com] ss-DE-1615... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.157.88.43
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇩🇪[www.v2nodes.com] ss-DE-1615... #2'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 193.108.119.2
@@ -80,13 +67,46 @@ proxies:
   server: 193.108.119.96
   sni: learn.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 193.108.119.15
-  sni: courses.iloverussia2026.com
+  server: 193.108.119.78
   type: trojan
-- name: 🇩🇪DE_1|3.4MB/s
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: '🇩🇪 德国 | DEU #8'
+  network: xhttp
+  port: 443
+  server: 104.18.138.67
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  xhttp-opts:
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+    path: /api
+  xudp: true
+- alpn:
+  - h3
+  client-fingerprint: randomized
+  name: 🇩🇪DE_4|2.4MB/s
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: russia.com
+  skip-cert-verify: false
+  sni: kargar001.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /tr?ed=2560
+- name: 🇩🇪DE_5|3.6MB/s
   password: 'null'
   port: 443
   server: 172.64.68.89
@@ -94,35 +114,14 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: 🇩🇪DE_2|3.7MB/s
+- name: 🇩🇪DE_6|1.4MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   sni: 172.64.68.89
   tls: true
   type: http
-- name: DE_speednode_0004
-  port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0005
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DK_speednode_0006
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_6|2.7MB/s|P002-260618
+- name: 🇩🇪DE_7|1.1MB/s|P002-260618
   password: None
   port: 443
   server: 149.36.50.1
@@ -132,71 +131,97 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪DE_7|4.0MB/s
-  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
-  port: 443
-  server: 18.134.253.71
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_8|2.7MB/s
-  network: ws
-  port: 443
-  server: 104.21.1.213
-  servername: media-0a02cd.aiacademyhub.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: fa80a2a1-edb1-461a-b94b-e360b8574e27
-  ws-opts:
-    headers:
-      Host: media-0a02cd.aiacademyhub.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /27ae75d08381b6af
-  xudp: true
-- name: 🇩🇪DE_9|3.4MB/s
-  port: 1080
-  server: 92.5.68.29
-  skip-cert-verify: true
-  type: socks5
-- name: 🇩🇪DE_10|3.9MB/s
+- name: 🇩🇪DE_8|1.7MB/s
   password: 'null'
-  port: 9002
-  server: 158.173.154.4
+  port: 443
+  server: 172.64.69.89
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- cipher: 2022-blake3-chacha20-poly1305
-  name: '🇩🇪 德国 | DEU #2'
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-  port: 443
-  server: 47.85.162.44
-  type: ss
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇩🇪 德国 | DEU #1'
+  network: ws
+  port: 80
+  server: www.true.th
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-- client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #5'
-  network: xhttp
+  uuid: 64b4f468-93af-451f-a721-171a2e9f314d
+  ws-opts:
+    headers:
+      Host: d1g0jlrlppl8b0.cloudfront.net
+    path: /myo
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
   port: 443
-  server: 193.160.208.240
-  servername: 193.160.208.240
+  server: 82.139.238.73
+  servername: vip.freevpn.cloudns.biz
   tls: true
   type: vless
   udp: true
-  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
-  xhttp-opts:
-    mode: auto
-    path: /assets/twru01/
-- name: '🇩🇪 德国 | DEU #1'
-  obfs: salamander
-  obfs-password: salamander
-  password: HATATEAYA
-  port: 8964
-  server: 77.90.15.183
+  uuid: 0bb8b560-b056-4245-8b9d-231a0a78c54b
+  ws-opts:
+    headers:
+      Host: vip.freevpn.cloudns.biz
+    path: /0bb8b560-b056-4245-8b9d-231a0a78c54b?ed=2048
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #6'
+  network: ws
+  port: 443
+  server: 213.145.87.240
+  servername: vip.freevpn.cloudns.biz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0bb8b560-b056-4245-8b9d-231a0a78c54b
+  ws-opts:
+    headers:
+      Host: vip.freevpn.cloudns.biz
+    path: /0bb8b560-b056-4245-8b9d-231a0a78c54b?ed=2048
+- name: 🇩🇪 德国 | DEU 9
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: russia.com
   skip-cert-verify: true
-  sni: ganlanc.at
-  tls: false
-  type: hysteria2
+  sni: kargar001.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: kargar001.pages.dev
+    path: /tr?ed=2560
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #10'
+  network: xhttp
+  port: 443
+  server: 104.18.139.67
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  xhttp-opts:
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+    path: /api
+- name: '🇩🇪 德国 | DEU #9'
+  password: bpb-trojan
+  port: 443
+  server: russia.com
+  skip-cert-verify: true
+  sni: kargar001.pages.dev
+  type: trojan
+- name: DE_speednode_0004
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
