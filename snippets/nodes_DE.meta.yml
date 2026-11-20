@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #10'
+  name: '🇩🇪 德国 | DEU #5'
   network: ws
   port: 443
   server: 46.243.205.192
@@ -14,7 +14,7 @@ proxies:
       Host: 46.243.205.192
     path: /catalog/feed/H9eui7WsW3xS
 - client-fingerprint: chrome
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
   network: ws
   port: 443
   server: 87.242.94.42
@@ -28,21 +28,21 @@ proxies:
     path: /cart/sync/iJa-_8Pi4FjK
 - cipher: 2022-blake3-chacha20-poly1305
   name: 🇩🇪[www.v2nodes.com] ss-DE-1623...
-  password: 1xJS+82JzziMfKGNrEtiG5FG9/vneVWuTjt0iwiXsfA=
+  password: zpdYERRY+i9wkj3G766aELYAVoITvCv9kKrIGG8ykzY=
   port: 59924
-  server: 92.5.15.46
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: '🇩🇪[www.v2nodes.com] ss-DE-1623... #1'
-  password: uou5NTq+xna9PBIG+8jtSSyQ6idxiXZgeK+Uw52qopY=
-  port: 59924
-  server: 130.61.145.251
+  server: 129.159.0.53
   type: ss
 - cipher: 2022-blake3-chacha20-poly1305
   name: 🇩🇪[www.v2nodes.com] ss-DE-1622...
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   port: 443
   server: 47.254.143.251
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1621...
+  password: zZMNTGpPl38ASlbI1EKOBJ
+  port: 46303
+  server: 135.220.178.46
   type: ss
 - cipher: aes-256-gcm
   name: 🇩🇪[www.v2nodes.com] ss-DE-1616...
@@ -136,93 +136,43 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: glush.de2.v1
-  name: 🇩🇪 德国 | DEU
-  network: grpc
+- cipher: chacha20-ietf-poly1305
+  name: '🇩🇪 德国 | DEU #1'
+  password: C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc
+  port: 25565
+  server: static.28.210.29.2.clients.your-server.de
+  type: ss
+  udp: true
+- client-fingerprint: random
+  name: '🇩🇪 德国 | DEU #2'
+  network: ws
   port: 443
-  server: ledger.filnex.baby
-  servername: copperdell.merlano.monster
+  server: 104.26.14.111
+  servername: cj1-e06.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-- cipher: 2022-blake3-chacha20-poly1305
-  name: '🇩🇪 德国 | DEU #2'
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-  port: 443
-  server: 47.85.162.44
-  type: ss
-  udp: true
-- client-fingerprint: firefox
+  uuid: 9be9e1e4-d1fc-4423-b22d-cd07a4381acb
+  ws-opts:
+    headers:
+      Host: cj1-e06.pages.dev
+    path: /
+- client-fingerprint: random
   name: '🇩🇪 德国 | DEU #3'
   network: ws
   port: 443
-  server: 201.24.49.215
-  servername: foliose.merlano.monster
+  server: 161.35.221.240
+  servername: cj1-e06.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  uuid: 9be9e1e4-d1fc-4423-b22d-cd07a4381acb
   ws-opts:
     headers:
-      Host: foliose.merlano.monster
-    path: /api/de2/stream
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #4'
-  network: ws
-  port: 443
-  server: quay.gerqix.online
-  servername: quay.gerqix.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-  ws-opts:
-    headers:
-      Host: quay.gerqix.online
-    path: /api/de2/stream
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #5'
-  network: ws
-  port: 443
-  server: linen.filnex.baby
-  servername: cinderbrook.elvano.website
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-  ws-opts:
-    headers:
-      Host: linen.filnex.baby
-    path: /api/de2/stream
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #6'
-  network: xhttp
-  port: 443
-  server: marsh.moltex.click
-  servername: cotoneaster.moltex.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-  xhttp-opts:
-    host: marsh.moltex.click
-    mode: auto
-    path: /api/de1/sync
+      Host: cj1-e06.pages.dev
+    path: /
 - client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #7'
+  name: '🇩🇪 德国 | DEU #4'
   network: xhttp
   port: 443
   server: 193.160.208.240
@@ -234,111 +184,18 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /assets/twru01/
-- alpn:
-  - h2
-  client-fingerprint: edge
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: glush.de1.v1
-  name: 🇩🇪 德国 | DEU 8
-  network: grpc
-  port: 443
-  server: almanac.filnex.baby
-  servername: morningfen.merlano.monster
+- client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #6'
+  network: tcp
+  port: 8443
+  server: 157.228.172.4
+  servername: 157.228.172.4
   tls: true
   type: vless
   udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: '🇩🇪 德国 | DEU #9'
-  network: xhttp
-  port: 443
-  server: sunfield.moltex.click
-  servername: sunfield.moltex.click
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-  xhttp-opts:
-    host: sunfield.moltex.click
-    mode: auto
-    path: /api/de1/sync
-- client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #11'
-  network: xhttp
-  port: 443
-  server: nursery.elvano.website
-  servername: nursery.elvano.website
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-  xhttp-opts:
-    host: nursery.elvano.website
-    mode: auto
-    path: /api/de2/sync
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #12'
-  network: xhttp
-  port: 443
-  server: pigment.merlano.monster
-  servername: pigment.merlano.monster
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-  xhttp-opts:
-    host: pigment.merlano.monster
-    mode: auto
-    path: /api/de2/sync
-- alpn:
-  - http/1.1
-  client-fingerprint: android
-  name: '🇩🇪 德国 | DEU #14'
-  network: ws
-  port: 443
-  server: 72.56.238.90
-  servername: sequoia.merlano.monster
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  uuid: aa983622-bffd-4313-b4d1-bf0e1b7b6ad8
   ws-opts:
-    headers:
-      Host: vellum.merlano.monster
-    path: /api/de1/stream
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇩🇪 德国 | DEU #1'
-  network: grpc
-  port: 443
-  server: ledger.filnex.baby
-  servername: copperdell.merlano.monster
-  tls: true
-  type: vless
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
-- alpn:
-  - h2
-  client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇩🇪 德国 | DEU #8'
-  network: grpc
-  port: 443
-  server: almanac.filnex.baby
-  servername: morningfen.merlano.monster
-  tls: true
-  type: vless
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    path: /
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
