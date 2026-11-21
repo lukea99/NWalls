@@ -17,15 +17,14 @@ proxies:
   port: 8388
   server: 209.248.57.105
   type: ss
-- name: '🇭🇰 香港 | HKG #3'
+- name: 🇭🇰[www.v2nodes.com] trojan-HK-...
   password: '!!str 12012'
   port: 12012
   server: 47.242.93.89
   skip-cert-verify: true
   sni: ali-hk.b-gfw.cfd
   type: trojan
-  udp: true
-- name: 🇭🇰HK_1|1.4MB/s
+- name: 🇭🇰HK_1|1.5MB/s
   port: 8443
   server: 38.76.140.254
   skip-cert-verify: true
@@ -33,13 +32,6 @@ proxies:
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 🇭🇰HK_2|2.6MB/s
-  password: admin
-  port: 8899
-  server: 47.242.19.215
-  skip-cert-verify: true
-  type: socks5
-  username: admin
 - alpn:
   - ''
   alterId: 0
@@ -60,11 +52,3 @@ proxies:
   type: vmess
   udp: true
   uuid: e47b9f77-60e4-4738-8d53-772b6002e146
-- name: '🇭🇰 香港 | HKG #4'
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20103
-  server: sclass-00.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
