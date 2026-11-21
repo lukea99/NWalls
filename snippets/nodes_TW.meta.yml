@@ -14,11 +14,11 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
 - alterId: 0
   cipher: auto
-  name: '🇹🇼 🇨🇳 台湾 | TWN #1'
+  name: 🇹🇼TW_1|4.0MB/s
   network: ws
   port: 16616
   server: dp8yk.xiaoyan.io
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -27,3 +27,4 @@ proxies:
     headers:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
     path: /
+  xudp: true
