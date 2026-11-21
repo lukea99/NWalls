@@ -41,18 +41,6 @@ proxies:
   server: 84.247.155.196
   type: ss
 - cipher: aes-128-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-5141...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1291...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  type: ss
-- cipher: aes-128-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-9223...
   password: shadowsocks
   port: 443
@@ -66,9 +54,17 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 🇯🇵JP_1|2.6MB/s
-  password: EGJDy5Kg
-  port: 42000
-  server: 103.248.150.50
-  type: socks5
-  username: paZFN3JA
+- client-fingerprint: chrome
+  name: '🇯🇵 日本 | JPN #1'
+  network: ws
+  port: 443
+  server: 103.201.130.126
+  servername: tt-9nz.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39303679-4e68-4233-8def-8f4f9e48d611
+  ws-opts:
+    headers:
+      Host: tt-9nz.pages.dev
+    path: /item/favourites
