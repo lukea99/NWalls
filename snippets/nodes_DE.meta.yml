@@ -97,11 +97,12 @@ proxies:
       Host: woodgrain.filnex.baby
     path: /api/de2/stream
 - cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1624...
+  name: 🇩🇪DE_1|1.1MB/s
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   port: 443
   server: 47.254.167.157
   type: ss
+  udp: true
 - cipher: 2022-blake3-chacha20-poly1305
   name: 🇩🇪[www.v2nodes.com] ss-DE-1608...
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
@@ -120,15 +121,6 @@ proxies:
   port: 7001
   server: 213.202.208.199
   type: ss
-- auth: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  name: 🇩🇪DE_3|2.9MB/s
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: 128.254.186.190
-  skip-cert-verify: true
-  sni: mother-earth.fyi
-  tls: false
-  type: hysteria2
 - name: US_speednode_0027
   port: 443
   server: 172.64.69.89
@@ -149,35 +141,34 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /assets/twru01/
-- encryption: mlkem768x25519plus.native.0rtt.e1Hds3F6-p26a02vbxJiHGALW23bMrMXgYNOnlcDDSQ
+- cipher: aes-256-gcm
+  name: '🇩🇪 德国 | DEU #2'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 22084
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 3
+  port: 28059
+  server: 194.110.210.41
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c38605a8-89ae-4e57-b9b0-35606df2e1a3
+- alterId: 0
+  cipher: auto
   name: '🇩🇪 德国 | DEU #3'
   network: tcp
-  port: 8193
-  server: 90819ce5a2221d4e.1f6.ir
+  port: 28059
+  server: 194.110.210.41
   tls: false
-  type: vless
-  udp: true
-  uuid: 1b0052b8-a7ee-4f63-91fe-c35d4cf1f188
-  ws-opts:
-    headers:
-      Host: 90819ce5a2221d4e.1f6.ir
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #5'
-  network: ws
-  port: 443
-  server: mail3.besttotaldns.com
-  servername: mail3.besttotaldns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18fe142e-1522-47ae-af55-bd8daf6273df
-  ws-opts:
-    headers:
-      Host: mail3.besttotaldns.com
-    path: /wo9a5v3jcz
+  type: vmess
+  uuid: c38605a8-89ae-4e57-b9b0-35606df2e1a3
 - name: DE_speednode_0003
   password: None
   port: 443

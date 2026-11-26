@@ -300,46 +300,49 @@ proxies:
   server: 57.131.27.21
   type: ss
 - cipher: aes-256-gcm
-  name: 🇮🇹[www.v2nodes.com] ss-IT-1619...
+  name: '🇮🇹 意大利 | ITA #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #4'
+  name: '🇮🇹 意大利 | ITA #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
-  type: ss
-- cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #6'
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.81
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: '🇮🇹 意大利 | ITA #4'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
+  server: 202.50.253.81
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #9'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1619... #3'
+  name: '🇮🇹 意大利 | ITA #2'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #7'
+  name: '🇮🇹 意大利 | ITA #6'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #3'
+  name: '🇮🇹 意大利 | ITA #8'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
@@ -353,7 +356,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1'
+  name: '🇮🇹 意大利 | ITA #7'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -438,12 +441,11 @@ proxies:
   server: 185.213.23.63
   type: ss
 - cipher: aes-256-gcm
-  name: '🇷🇺 俄罗斯 | RUS #1'
+  name: 🇷🇺[www.v2nodes.com] ss-RU-1624...
   password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
   port: 18443
   server: 194.87.69.12
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺[www.v2nodes.com] ss-RU-1163...
   password: VVlAff77CnAU43Aoc5j15Y
@@ -642,21 +644,156 @@ proxies:
   skip-cert-verify: true
   sni: xvxn1hkzf.mateflora.com
   type: trojan
-- name: '🇨🇳 CN_71 #1'
-  password: 85dd0cc3-fa1b-49be-9e38-a56e8d76ab4b
-  port: 20001
-  server: sclass-01.catcat321.com
+- cipher: chacha20-ietf-poly1305
+  name: '🇬🇧 英国 | GBR #6'
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+  port: 28014
+  server: waic.pro.main.sys-metric-report.com
+  type: ss
+  udp: true
+- name: '🇺🇸 美国 | USA #5'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.114
   skip-cert-verify: true
-  sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: '🇨🇳 CN_72 #1'
-  password: 2e7ebefd-1572-4a4e-b1ec-51a9cb4157b8
-  port: 20058
-  server: sclass-01.catcat321.com
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #10'
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.166
   skip-cert-verify: true
-  sni: hk.catxstar.com
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇰DK_1|2.5MB/s
+  password: c917b96e084ea67a0f21031f1284f9ee9e1d837321ce6362
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: denmark.astroapps.io
+    mode: websocket
+    path: /ad37249091fe1c6ac69e8c23
+    tls: true
+  port: 443
+  server: denmark.astroapps.io
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰HK_3|1.5MB/s
+  password: f8256fdf607a8015a02b46df1563c2f35ebaff0d56f2923a
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hongkong.astroapps.io
+    mode: websocket
+    path: /ba91191d41f96668df6fe14b
+    tls: true
+  port: 443
+  server: hongkong.astroapps.io
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇪BE_2|3.7MB/s
+  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: belgium.astroapps.io
+    mode: websocket
+    path: /7a0f74508333399db96164d7
+    tls: true
+  port: 443
+  server: belgium.astroapps.io
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_9|1.8MB/s
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.114
+  skip-cert-verify: false
+  sni: learn.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: '🇦🇱 AL_03 #1'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 35190
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇨🇦 加拿大 | CAN #1'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 21195
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇩🇪 德国 | DEU #2'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 22084
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 3
+  port: 28059
+  server: 194.110.210.41
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c38605a8-89ae-4e57-b9b0-35606df2e1a3
+- cipher: aes-128-gcm
+  name: '🇪🇪 爱沙尼亚 | EST #1'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 35194
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇫🇷 法国 | FRA #1'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 21191
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇬🇧 英国 | GBR #1'
+  network: ws
+  port: 12007
+  server: yg2.needss.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 82fe4bde-7d9c-4106-8398-078697582192
+  ws-opts:
+    headers:
+      Host: yg2.needss.top
+    path: /
+- cipher: aes-128-gcm
+  name: '🇬🇧 英国 | GBR #3'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 40040
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇬🇧 英国 | GBR #4'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 21193
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
   udp: true
 - name: '🇭🇰 香港 | HKG #1'
   password: '12012'
@@ -670,21 +807,6 @@ proxies:
   cipher: auto
   name: '🇭🇰 香港 | HKG #2'
   network: ws
-  port: 44867
-  server: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    headers:
-      Host: 47.244.120.197
-    path: /arki
-- alterId: 0
-  cipher: auto
-  name: '🇭🇰 香港 | HKG #4'
-  network: ws
   port: 443
   server: 47.86.90.31
   servername: bywxdhirqkjj8xaz.v.3dns.vip
@@ -697,24 +819,27 @@ proxies:
     headers:
       Host: bywxdhirqkjj8xaz.v.3dns.vip
     path: /ws-vmess
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇮🇩 印尼 | IDN #1'
-  network: ws
-  port: 443
-  server: 172.66.142.170
-  servername: zoomgov.nathaya.web.id
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- cipher: aes-128-gcm
+  name: '🇭🇰 香港 | HKG #3'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 40000
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
   udp: true
-  uuid: 4caf156a-3309-4105-8388-d388eb9e1105
-  ws-opts:
-    headers:
-      Host: id2.nathaya.web.id
-    path: /whatever/vmess
+- cipher: aes-128-gcm
+  name: '🇭🇰 香港 | HKG #4'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 40012
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇭🇰 香港 | HKG #5'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 22061
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: '🇮🇹 意大利 | ITA #5'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -722,57 +847,78 @@ proxies:
   server: 202.50.253.18
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '🇯🇵 日本 | JPN #1'
-  network: ws
-  port: 443
-  server: JP032010.ssgreen.org
-  servername: JP032010.ssgreen.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f9a1ee44-21b3-4d0e-81b6-265fa2f3ba57
-  ws-opts:
-    headers:
-      Host: JP032010.ssgreen.org
-    path: /wes
 - cipher: aes-256-gcm
-  name: '🇰🇷 韩国 | KOR #1'
-  password: qpowi_vip_tunnel_2026_secure
-  port: 8388
-  server: 211.233.33.228
+  name: '🇯🇵 日本 | JPN #1'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 22069
+  server: 038b7750485a79a0.lebufflonfermegroup.us
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇸🇬 新加坡 | SGP #2'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 47.129.155.154
+- cipher: aes-128-gcm
+  name: '🇵🇱 波兰 | POL #1'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 35031
+  server: 038b7750485a79a0.lebufflonfermegroup.us
   type: ss
   udp: true
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  name: '🇺🇸 美国 | USA #1'
+  name: '🇸🇬 新加坡 | SGP #1'
   network: ws
-  port: 443
-  server: JP032011.ssgreen.org
+  port: 54327
+  server: 8.222.172.146
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 4b9dc0c5-388d-45c5-9ad3-a91db984784e
+  uuid: 8a3d03bc-9b35-43b4-d901-c8531f2bbc6d
   ws-opts:
-    headers:
-      Host: JP032011.ssgreen.org
-    path: /wes
+    path: /pages
+- cipher: aes-128-gcm
+  name: '🇸🇬 新加坡 | SGP #4'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 40022
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '🇺🇸 美国 | USA #1'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 40031
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '🇺🇸 美国 | USA #2'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 40032
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: '🇺🇸 美国 | USA #3'
+  password: d98d7ec5-24d7-4ed8-8329-728b2c7ad1c5
+  port: 40030
+  server: 038b7750485a79a0.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- name: 🇺🇸 美国 | USA 4
+  network: ws
+  password: c48qMRRfLJ3kwD4P_XpgfIq6
+  port: 443
+  server: 3x-sub.linzhonghong.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /tjbbb7eab89c9a
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  name: '🇺🇸 美国 | USA #2'
+  name: '🇺🇸 美国 | USA #6'
   network: ws
   port: 443
   server: US032020.ssgreen.org
@@ -785,18 +931,51 @@ proxies:
     headers:
       Host: US032020.ssgreen.org
     path: /wes
-- alterId: 0
+- name: '🇺🇸 美国 | USA #7'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.114.106
+  skip-cert-verify: true
+  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #8'
+  password: qpbw_r_Ykr5EZTGKX3mNZSVTj9liEAL3
+  port: 443
+  server: 186.241.106.5
+  skip-cert-verify: true
+  sni: 186.241.106.5
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
-  name: '🇺🇸 美国 | USA #5'
+  name: '🇺🇸 美国 | USA #9'
   network: ws
   port: 443
-  server: US032021.ssgreen.org
-  servername: US032021.ssgreen.org
+  server: US032023.ssgreen.org
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: bcb0310d-6a1a-49aa-b6d0-9bcb69805670
+  udp: true
+  uuid: b7b40f6a-c795-48fc-bafe-b632f6ce5888
   ws-opts:
     headers:
-      Host: US032021.ssgreen.org
+      Host: US032023.ssgreen.org
     path: /wes
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪 德国 | DEU #3'
+  network: tcp
+  port: 28059
+  server: 194.110.210.41
+  tls: false
+  type: vmess
+  uuid: c38605a8-89ae-4e57-b9b0-35606df2e1a3
+- name: '🇺🇸 美国 | USA #4'
+  password: c48qMRRfLJ3kwD4P_XpgfIq6
+  port: 443
+  server: 3x-sub.linzhonghong.com
+  skip-cert-verify: true
+  type: trojan
